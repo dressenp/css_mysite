@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #596e79;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #596e79;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #596e79;
+}
+
+hr {
+  border: dotted #dfd3c3 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #f0ece3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #FFFFFF;
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #f9c49a;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  display: inline-block;
+}
+
+.contact-me {
+  line-height: 2;
+  margin: 0 auto 100px;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #596e79;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.footer-link:hover {
+  color: #f0ece3;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #4b6a75 5%, #408c99 100%);
+  background-color: #4b6a75;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #4b6a75 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  display: block;
+  font-size: 0.75rem;
+}
+
+.website-design {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.maya {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+}
